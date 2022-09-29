@@ -10,11 +10,11 @@ public class ListofTeamMates {
         user.add(new TeamMate());
 
         for(int i = 0; i < user.size(); i++){
-            user[i].printTeamMate();
+            user.get(i).printTeamMate();
         }
 
         for(int i = 0; i < user.size(); i++){
-            user[i].printTeamMate(user[i].getOnline);
+            user.get(i).printTeamMate(user.get(i).getOnline);
         }
     }
 }
